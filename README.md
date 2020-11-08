@@ -1,2 +1,2 @@
-# normalcy
- normal 40%
+# vanish
+ mini van compat 40%
