@@ -1,0 +1,2 @@
+# normalcy
+ normal 40%
