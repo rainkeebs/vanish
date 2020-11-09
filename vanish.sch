@@ -873,28 +873,6 @@ F 3 "~" V 1850 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D40
-U 1 1 5FAA4719
-P 3100 3150
-F 0 "D40" V 3146 3082 50  0000 R CNN
-F 1 "D_Small" V 3055 3082 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 3100 3150 50  0001 C CNN
-F 3 "~" V 3100 3150 50  0001 C CNN
-	1    3100 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX41
-U 1 1 5FAA471F
-P 3650 2900
-F 0 "MX41" H 3683 3123 60  0000 C CNN
-F 1 "MX-NoLED" H 3683 3049 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 3025 2875 60  0001 C CNN
-F 3 "" H 3025 2875 60  0001 C CNN
-	1    3650 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D41
 U 1 1 5FAA4725
 P 3600 3150
@@ -906,34 +884,12 @@ F 3 "~" V 3600 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX43
-U 1 1 5FAA472B
-P 4150 2900
-F 0 "MX43" H 4183 3123 60  0000 C CNN
-F 1 "MX-NoLED" H 4183 3049 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 3525 2875 60  0001 C CNN
-F 3 "" H 3525 2875 60  0001 C CNN
-	1    4150 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D42
-U 1 1 5FAA4731
-P 4100 3150
-F 0 "D42" V 4146 3082 50  0000 R CNN
-F 1 "D_Small" V 4055 3082 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 4100 3150 50  0001 C CNN
-F 3 "~" V 4100 3150 50  0001 C CNN
-	1    4100 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX44
 U 1 1 5FAA4737
 P 5400 2900
 F 0 "MX44" H 5433 3123 60  0000 C CNN
 F 1 "MX-NoLED" H 5433 3049 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4775 2875 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 4775 2875 60  0001 C CNN
 F 3 "" H 4775 2875 60  0001 C CNN
 	1    5400 2900
 	1    0    0    -1  
@@ -977,7 +933,7 @@ U 1 1 5FAA474F
 P 6400 2900
 F 0 "MX47" H 6433 3123 60  0000 C CNN
 F 1 "MX-NoLED" H 6433 3049 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 5775 2875 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5775 2875 60  0001 C CNN
 F 3 "" H 5775 2875 60  0001 C CNN
 	1    6400 2900
 	1    0    0    -1  
@@ -1002,17 +958,6 @@ F 1 "MX-NoLED" H 3733 3049 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-6.25U-ReversedStabilizers-NoLED" H 3075 2875 60  0001 C CNN
 F 3 "" H 3075 2875 60  0001 C CNN
 	1    3700 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX45
-U 1 1 5FAB49EF
-P 5450 2900
-F 0 "MX45" H 5483 3123 60  0000 C CNN
-F 1 "MX-NoLED" H 5483 3049 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 4825 2875 60  0001 C CNN
-F 3 "" H 4825 2875 60  0001 C CNN
-	1    5450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1410,17 +1355,6 @@ Wire Wire Line
 Connection ~ 2550 1550
 Wire Wire Line
 	2550 1550 2550 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX40
-U 1 1 5FAA4713
-P 3150 2900
-F 0 "MX40" H 3183 3123 60  0000 C CNN
-F 1 "MX-NoLED" H 3183 3049 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 2525 2875 60  0001 C CNN
-F 3 "" H 2525 2875 60  0001 C CNN
-	1    3150 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 2850 3300 2350
 Wire Wire Line
@@ -1457,7 +1391,6 @@ Wire Wire Line
 Connection ~ 3550 2200
 Wire Wire Line
 	3850 2850 3800 2850
-Connection ~ 3800 2850
 Wire Wire Line
 	4300 2850 4300 2350
 Wire Wire Line
@@ -1607,18 +1540,8 @@ Wire Wire Line
 Connection ~ 1850 3250
 Wire Wire Line
 	1850 3250 1350 3250
-Connection ~ 3100 3250
-Wire Wire Line
-	3100 3250 1850 3250
 Connection ~ 3600 3250
-Wire Wire Line
-	3600 3250 3100 3250
-Connection ~ 4100 3250
-Wire Wire Line
-	4100 3250 3600 3250
 Connection ~ 5350 3250
-Wire Wire Line
-	5350 3250 4100 3250
 Connection ~ 5850 3250
 Wire Wire Line
 	5850 3250 5350 3250
@@ -1711,7 +1634,6 @@ Wire Wire Line
 Connection ~ 5350 3050
 Wire Wire Line
 	3650 3050 3600 3050
-Connection ~ 3600 3050
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5FC3880F
@@ -1823,4 +1745,25 @@ Wire Wire Line
 Connection ~ 6650 6150
 Wire Wire Line
 	6650 6150 6800 6150
+$Comp
+L Device:C_Small C8
+U 1 1 5FA8A2A3
+P 6600 3850
+F 0 "C8" H 6692 3896 50  0000 L CNN
+F 1 "0.1uF" H 6692 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6600 3850 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
+	1    6600 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3750
+Wire Wire Line
+	6900 3750 6600 3750
+Wire Wire Line
+	6600 3950 6900 3950
+Connection ~ 6900 3950
+Wire Wire Line
+	1850 3250 3600 3250
+Wire Wire Line
+	3600 3250 5350 3250
 $EndSCHEMATC
