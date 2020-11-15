@@ -1,0 +1,14 @@
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
+"C1, C2, ",2,22pF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C1804 
+"C3, ",1,1uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C28323 
+"C5, C6, C4, C8, ",4,0.1uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C49678 
+"C7, ",1,10uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C15850 
+"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D41, D43, D44, D45, ",43,D_Small,D_Small,Diode_SMD:D_SOD-123,"Diode, small symbol",C64898 
+"F1, ",1,Polyfuse_Small,Polyfuse_Small,Fuse:Fuse_1206_3216Metric,"Resettable fuse, polymeric positive temperature coefficient, small symbol",C151162 
+"J1, ",1,USB_C_Receptacle_USB2.0,USB_C_Receptacle_USB2.0,Keebio-Parts:HRO-TYPE-C-31-M-12-Assembly,USB 2.0-only Type-C Receptacle connector,C165948 
+"R2, R3, ",2,22,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C17561 
+"R4, R1, ",2,10k,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C17414 
+"R5, R6, ",2,5k1,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C27834 
+"SW1, ",1,SW_Push,SW_Push,random-keyboard-parts:SKQG-1155865,"Push button switch, generic, two pins",C318884 
+"U1, ",1,ATmega32U4-AU,ATmega32U4-AU,Package_QFP:TQFP-44_10x10mm_P0.8mm,"16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44",C44854 
+"Y1, ",1,16MHz,Crystal_GND24_Small,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,"Four pin crystal, GND on pins 2 and 4, small symbol",C13738 

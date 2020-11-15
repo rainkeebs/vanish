@@ -1,0 +1,16 @@
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
+"C1, ",1,4.7n,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C1744 
+"C3, ",1,1uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C28323 
+"C7, ",1,10uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C15850 
+"C8, C4, C6, C5, ",4,0.1uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",C49678 
+"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D41, D43, D44, D45, ",43,D_Small,D_Small,Diode_SMD:D_SOD-123,"Diode, small symbol",C64898
+"F1, ",1,Polyfuse_Small,Polyfuse_Small,Fuse:Fuse_1206_3216Metric,"Resettable fuse, polymeric positive temperature coefficient, small symbol",C151162 
+"R2, R3, ",2,22,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C17561 
+"R4, R1, ",2,10k,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C17414 
+"R5, R6, ",2,5k1,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C27834 
+"R7, ",1,1M,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",C17514 
+"SW1, ",1,SW_Push,SW_Push,random-keyboard-parts:SKQG-1155865,"Push button switch, generic, two pins",C318884 
+"U1, ",1,ATmega32U4-AU,ATmega32U4-AU,Package_QFP:TQFP-44_10x10mm_P0.8mm,"16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44",C44854 
+"U2, ",1,SRV05-4,SRV05-4,Package_TO_SOT_SMD:SOT-23-6,"ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",C85364 
+"USB1, ",1,HRO-TYPE-C-31-M-12,HRO-TYPE-C-31-M-12,Type-C:HRO-TYPE-C-31-M-12,,C165948 
+"Y1, ",1,Resonator_Small,Resonator_Small,Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm,"Three pin ceramic resonator, small symbol",C32180
